@@ -16,7 +16,7 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(title: 'Programa Layout'),
+      home: const HomePage(title: 'Olá Bem Vindo!'),
     );
   }
 }
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 alignment: Alignment.center,
                 //color: Colors.amber,
-                child: const Text('Layout Superio'),
+                child: const Text('Meu Nome É'),
               ),
             ),
             Expanded(
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ],
                       ),
-                      child: const Text('Meu Aplicativo'),
+                      child: const Text('Daniele'),
                     ),
                   ),
                   Expanded(
@@ -102,7 +102,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 alignment: Alignment.center,
                 // color: Colors.blue,
-                child: const Text('Layout Inferior'),
+                child: const Text('obrigada Por Me Visitar'),
               ),
             ),
           ],
